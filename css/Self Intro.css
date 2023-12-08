@@ -1,0 +1,119 @@
+body{
+	color: linear-gradient(#FFFFFF #F2D1D1);
+}
+
+nav{
+	display: inline-block;
+	font-family: 'Antic Didone', serif;
+	font-size: 200%;
+	text-transform: uppercase;
+	float: right;
+	text-align: center;
+	color: #743A3A ; 
+	text-decoration: none;
+	margin: 40px 100px;
+}
+
+a{
+	color: #743A3A ; 
+	text-decoration: none;
+	padding: 0px 50px;
+}
+
+
+img {
+	display: inline-block;
+	height: 600px;
+	width: auto;
+}
+
+@font-face {
+font-family: 'Country Market';
+src: url('font/Country Market.ttf'); 
+}
+
+
+h1 {
+	display: inline-block;
+	font-family: 'Country Market';
+	font-size: 100px;
+	color: #802020;
+	font-weight: lighter;
+}
+
+.vertical-menu{
+	display: inline-block;
+	float: left;
+	width: 260px;
+	height: 800px;
+	background-color: #F6EDED;
+	padding:150px 0px 0px 0px;
+}
+
+.vertical-menu a {
+	display: block;
+	font-size: 30px;
+	font-family: 'Antic Didone', serif;	
+	text-align: center;
+	padding: 25px;
+}
+
+.vertical-menu a.active {
+  text-decoration: underline; 
+  text-decoration-thickness: 1.5px;
+}
+
+.right-panel {
+	display: inline-block;
+	float: right;
+	width: 1100px;
+	height: 800px;
+}
+
+
+.right-panel p {
+	display: block;
+	text-align: center;
+	font-family: 'Antic Didone', serif;	
+	font-size: 17px;
+
+}
+
+.right-panel img{
+	position: absolute;
+
+}
+
+.right-panel .tabletennis {
+	left:400px;
+	border-radius: 20px;
+	width:250px;
+	height: auto;
+	opacity: 0.7;
+}
+
+.right-panel .tchouk {
+	top:180px;
+	right:100px;
+	border-radius: 20px;
+	width:250px;
+	height: auto;
+	opacity: 0.85;
+}
+
+.right-panel .grad {
+	left:430px;
+	border-radius: 20px;
+	width:200px;
+	height: auto;
+	opacity: 0.75;
+}
+
+.right-panel .eeg {
+	top:420px;
+	right:100px;
+	border-radius: 20px;
+	width:250px;
+	height: auto;
+	opacity: 0.8;
+}
